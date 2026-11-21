@@ -12,3 +12,5 @@ Day 94 assignment of the course *100 Days of Code: The Complete Python Pro Bootc
 | [Step 3: Design](Step-3-Design) | What this build step did and what it taught, with a screenshot |
 | [Step 4: Vision](Step-4-Vision) | What this build step did and what it taught, with a screenshot |
 | [Step 5: Bot](Step-5-Bot) | What this build step did and what it taught, with a screenshot |
+| [Step 6: Release](Step-6-Release) | What this build step did and what it taught, with a screenshot |
+| [Reflection](Reflection) | Read the journal: how the project was approached, what was hard and easy, and the biggest lesson |

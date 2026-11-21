@@ -42,7 +42,7 @@ The speed is estimated from the seconds since the start, because the bot sees
 only pixels.
 
 Tuning the far edge from 30 to 75 game pixels raised the score of the headless
-runs from a few hundred to more than 2000.
+runs from a few hundred to about 2300 in good runs; the score varies a lot from run to run.
 
 ## Consequences
 

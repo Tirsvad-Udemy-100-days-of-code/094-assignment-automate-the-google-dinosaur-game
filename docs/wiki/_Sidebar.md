@@ -7,6 +7,8 @@
 - [Step 3: Design](Step-3-Design)
 - [Step 4: Vision](Step-4-Vision)
 - [Step 5: Bot](Step-5-Bot)
+- [Step 6: Release](Step-6-Release)
+- [Reflection](Reflection)
 
 **Languages**
 
