@@ -33,6 +33,9 @@ headless = [
     "playwright>=1.49",
 ]
 
+[project.scripts]
+dino-bot = "dino_bot.__main__:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
