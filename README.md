@@ -138,6 +138,7 @@ Malaysia.
 | --- | --- | --- | --- | --- |
 | 1 | MIL-001 Baseline | Business case, stakeholders, project plan and milestones | [01-baseline.png](docs/images/01-baseline.png) | [Step 1](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-1-Baseline) |
 | 2 | MIL-002 Scaffold | `pyproject.toml`, `constants.py`, smoke test, `.gitignore`, `.editorconfig`, `Doxyfile`, this README | [02-scaffold-tests.png](docs/images/02-scaffold-tests.png) | [Step 2](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-2-Scaffold) |
+| 3 | MIL-003 Design | Use case UC-001, two ADRs, domain model and design class diagram | [03-design-class-diagram.png](docs/images/03-design-class-diagram.png) | [Step 3](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-3-Design) |
 
 Step 1, the Project Plan with six milestones:
 
@@ -146,6 +147,10 @@ Step 1, the Project Plan with six milestones:
 Step 2, smoke tests passing in the .venv:
 
 ![Step 2, smoke tests passing in the .venv](docs/images/02-scaffold-tests.png)
+
+Step 3, the layers of the design:
+
+![Step 3, the layers of the design](docs/images/03-design-class-diagram.png)
 <!-- steps:end -->
 
 ## 📄 License
