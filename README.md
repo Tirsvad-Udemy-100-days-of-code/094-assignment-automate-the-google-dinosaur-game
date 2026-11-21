@@ -139,6 +139,7 @@ Malaysia.
 | 1 | MIL-001 Baseline | Business case, stakeholders, project plan and milestones | [01-baseline.png](docs/images/01-baseline.png) | [Step 1](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-1-Baseline) |
 | 2 | MIL-002 Scaffold | `pyproject.toml`, `constants.py`, smoke test, `.gitignore`, `.editorconfig`, `Doxyfile`, this README | [02-scaffold-tests.png](docs/images/02-scaffold-tests.png) | [Step 2](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-2-Scaffold) |
 | 3 | MIL-003 Design | Use case UC-001, two ADRs, domain model and design class diagram | [03-design-class-diagram.png](docs/images/03-design-class-diagram.png) | [Step 3](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-3-Design) |
+| 4 | MIL-004 Vision | `Box`, `Frame`, `find_game_area`, `detection_box`, `is_collision` and their unit tests | [04-vision-detection-box.png](docs/images/04-vision-detection-box.png) | [Step 4](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-4-Vision) |
 
 Step 1, the Project Plan with six milestones:
 
@@ -151,6 +152,10 @@ Step 2, smoke tests passing in the .venv:
 Step 3, the layers of the design:
 
 ![Step 3, the layers of the design](docs/images/03-design-class-diagram.png)
+
+Step 4, the detection box on a real game picture and the vision tests:
+
+![Step 4, the detection box on a real game picture and the vision tests](docs/images/04-vision-detection-box.png)
 <!-- steps:end -->
 
 ## 📄 License
