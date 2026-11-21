@@ -13,8 +13,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition | pending |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-010 Go, stand-in, not independent | pending |
+| 2026-11-21 | Proposed | S01 | S01 | First edition | [6ca5d91] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-010 Go, stand-in, not independent | [6ca5d91] |
 
 ---
 
@@ -88,3 +88,4 @@ No step includes or extends another use case; UC-001 is the only use case.
 [BC-001]: ../../business-case.md
 [MIL-003]: ../../milestones/mil-003-design.md
 [DM-001]: ../../domain-model.md
+[6ca5d91]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/commit/6ca5d91b6950a72a8010d23369b0dd84d1c1b122

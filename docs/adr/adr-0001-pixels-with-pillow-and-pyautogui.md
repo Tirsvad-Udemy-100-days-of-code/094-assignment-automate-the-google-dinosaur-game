@@ -11,8 +11,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition | pending |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-011 Go, stand-in, not independent | pending |
+| 2026-11-21 | Proposed | S01 | S01 | First edition | [0287dd0] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-011 Go, stand-in, not independent | [0287dd0] |
 
 ---
 
@@ -68,3 +68,4 @@ Negative:
 [BC-001]: ../business-case.md
 [UC-001]: ../use-cases/uc-001-play-the-game/uc.md
 [DCD-001]: ../dcd.md
+[0287dd0]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/commit/0287dd0a7f6e9ec9ce16250a06ea46cd968f2175

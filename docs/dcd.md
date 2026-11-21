@@ -11,8 +11,8 @@
 
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-21 | Proposed | S01 | S01 | First edition | pending |
-| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-014 Go, stand-in, not independent | pending |
+| 2026-11-21 | Proposed | S01 | S01 | First edition | [4dabae9] |
+| 2026-11-21 | Accepted | S01 | S01 | Accepted by S01 in chat on 2026-11-21; review RC-014 Go, stand-in, not independent | [4dabae9] |
 
 ---
 
@@ -183,3 +183,4 @@ obstacle_module ..> Frame
 [UC-001]: ./use-cases/uc-001-play-the-game/uc.md
 [ADR-0001]: ./adr/adr-0001-pixels-with-pillow-and-pyautogui.md
 [ADR-0002]: ./adr/adr-0002-detection-zone.md
+[4dabae9]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/commit/4dabae906e79f285b289afcb93479a77852b0a3d
