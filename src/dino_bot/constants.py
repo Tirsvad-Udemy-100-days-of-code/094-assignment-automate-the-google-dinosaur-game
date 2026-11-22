@@ -15,5 +15,47 @@ GAME_URL: str = "https://elgoog.im/t-rex/"
 ## Width of the game canvas in game pixels.
 GAME_WIDTH: int = 600
 
+## Grey value (0 to 255) the game draws the dinosaur, the ground and the obstacles with (colour #535353).
+INK_GREY: int = 83
+
+## Grey value of the ink in night mode, where the game inverts its colours.
+NIGHT_INK_GREY: int = 255 - INK_GREY
+
+## How far a pixel may be from the ink grey and still count as ink when the ground line is searched.
+INK_TOLERANCE: int = 40
+
+## Fewest ink pixels a row must have to count as the ground line, in screen pixels.
+MIN_GROUND_LINE_PIXELS: int = 300
+
+## Right edge of the dinosaur, in game pixels from the left edge of the canvas.
+DINO_RIGHT: float = 66.0
+
+## Top of the detection box, in game pixels above the ground line. Birds that fly higher pass over the dinosaur.
+BOX_TOP_ABOVE_GROUND: float = 36.0
+
+## Bottom of the detection box, in game pixels above the ground line, so bumps in the ground are not seen.
+BOX_BOTTOM_ABOVE_GROUND: float = 7.0
+
+## Gap between the dinosaur and the near edge of the detection box, in game pixels.
+BOX_NEAR_GAP: float = 4.0
+
+## Distance from the dinosaur to the far edge of the detection box at the start speed, in game pixels.
+START_LOOK_AHEAD: float = 75.0
+
+## Speed of the game when it starts, in game pixels per frame.
+START_SPEED: float = 6.0
+
+## Highest speed of the game, in game pixels per frame.
+MAX_SPEED: float = 13.0
+
+## How much the speed grows each second (0.001 per frame at 60 frames per second).
+SPEED_GAIN_PER_SECOND: float = 0.06
+
+## Smallest grey difference from the background that counts as part of an obstacle.
+OBSTACLE_CONTRAST: int = 60
+
+## Fewest obstacle pixels in the detection box before the bot jumps; one pixel can be noise.
+MIN_OBSTACLE_PIXELS: int = 3
+
 ## Key the bot presses to start the game and to jump.
 JUMP_KEY: str = "space"
