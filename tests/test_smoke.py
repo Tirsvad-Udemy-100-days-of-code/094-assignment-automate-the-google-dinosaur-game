@@ -8,7 +8,7 @@ from dino_bot import constants
 
 
 def test_package_has_a_version() -> None:
-    assert dino_bot.__version__ == "0.1.0"
+    assert dino_bot.__version__ == "1.0.0"
 
 
 def test_game_address_is_a_web_address() -> None:

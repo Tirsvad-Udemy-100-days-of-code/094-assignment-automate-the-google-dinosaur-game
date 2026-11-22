@@ -3,6 +3,7 @@
 @brief The real clock.
 """
 
+import threading
 import time
 
 
@@ -21,4 +22,4 @@ class SystemClock:
         """!
         @brief Wait for some seconds.
         """
-        time.sleep(seconds)
+        threading.Event().wait(seconds)

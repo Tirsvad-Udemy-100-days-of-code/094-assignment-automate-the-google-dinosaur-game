@@ -24,7 +24,6 @@ def use_fake_desktop(monkeypatch: pytest.MonkeyPatch, picture: Picture) -> FakeK
     monkeypatch.setattr(desktop_screen, "DesktopScreen", lambda: FakeScreen(picture))
     monkeypatch.setattr(desktop_keyboard, "DesktopKeyboard", lambda: keyboard)
     monkeypatch.setattr(system_clock, "SystemClock", lambda: FakeClock())
-    monkeypatch.setattr(cli.time, "sleep", lambda seconds: None)
     return keyboard
 
 
