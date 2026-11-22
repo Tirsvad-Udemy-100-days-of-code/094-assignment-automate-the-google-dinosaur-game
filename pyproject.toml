@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dino-bot"
-version = "0.1.0"
+version = "1.0.0"
 description = "A bot that plays the Google Dinosaur Game by reading screen pixels with Pillow and hitting the space bar with pyautogui."
 readme = "README.md"
 requires-python = ">=3.14"

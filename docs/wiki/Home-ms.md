@@ -12,3 +12,5 @@ Tugasan Hari 94 kursus *100 Days of Code: The Complete Python Pro Bootcamp*. Bot
 | [Langkah 3: Reka bentuk](Step-3-Design-ms) | Apa yang dilakukan langkah binaan ini dan apa yang dipelajari, dengan tangkapan skrin |
 | [Langkah 4: Penglihatan](Step-4-Vision-ms) | Apa yang dilakukan langkah binaan ini dan apa yang dipelajari, dengan tangkapan skrin |
 | [Langkah 5: Bot](Step-5-Bot-ms) | Apa yang dilakukan langkah binaan ini dan apa yang dipelajari, dengan tangkapan skrin |
+| [Langkah 6: Keluaran](Step-6-Release-ms) | Apa yang dilakukan langkah binaan ini dan apa yang dipelajari, dengan tangkapan skrin |
+| [Refleksi](Reflection-ms) | Baca jurnal: bagaimana projek didekati, apa yang sukar dan mudah, dan pelajaran terbesar |

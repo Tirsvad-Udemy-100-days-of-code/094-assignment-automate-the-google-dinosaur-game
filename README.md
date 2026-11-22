@@ -131,7 +131,7 @@ open `docs/doxygen/html/index.html`.
 
 The project is built in steps, one branch and pull request each. The wiki has a
 page per step that explains what was learned, in English, Danish and Bahasa
-Malaysia.
+Malaysia and a [reflection journal](docs/reflection.md).
 
 <!-- steps:start -->
 | Step | Milestone | What it adds | Screenshot | Wiki |
@@ -141,6 +141,7 @@ Malaysia.
 | 3 | MIL-003 Design | Use case UC-001, two ADRs, domain model and design class diagram | [03-design-class-diagram.png](docs/images/03-design-class-diagram.png) | [Step 3](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-3-Design) |
 | 4 | MIL-004 Vision | `Box`, `Frame`, `find_game_area`, `detection_box`, `is_collision` and their unit tests | [04-vision-detection-box.png](docs/images/04-vision-detection-box.png) | [Step 4](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-4-Vision) |
 | 5 | MIL-005 Bot | `play_game`, desktop and headless adapters, `hit`, the command line and their tests | [05-bot-headless-run.png](docs/images/05-bot-headless-run.png) | [Step 5](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-5-Bot) |
+| 6 | MIL-006 Release | Wiki in three languages, reflection journal, final README, version 1.0.0 | [06-release-results.png](docs/images/06-release-results.png) | [Step 6](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-6-Release) |
 
 Step 1, the Project Plan with six milestones:
 
@@ -161,6 +162,10 @@ Step 4, the detection box on a real game picture and the vision tests:
 Step 5, a headless run of the bot with its score:
 
 ![Step 5, a headless run of the bot with its score](docs/images/05-bot-headless-run.png)
+
+Step 6, results of three headless runs:
+
+![Step 6, results of three headless runs](docs/images/06-release-results.png)
 <!-- steps:end -->
 
 ## 📄 License
@@ -177,7 +182,6 @@ GNU Affero General Public License v3.0 or later, see [LICENSE](LICENSE).
 
 | Document | What it tells you |
 | --- | --- |
-| [AGENTS.md][agents] | The rules agents follow in this repository |
 | [Business Case][BC-001] | Why the project exists, its scope and success criteria |
 | [Stakeholder Analysis][SA-001] | Who is involved; the stakeholder IDs used for owners and reviewers |
 | [Project Plan][PP-001] | The gateways and their schedule |
@@ -191,7 +195,6 @@ GNU Affero General Public License v3.0 or later, see [LICENSE](LICENSE).
 [repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game
 [documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki
 [issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/issues
-[agents]: ./AGENTS.md
 [BC-001]: ./docs/business-case.md
 [SA-001]: ./docs/stakeholder-analysis.md
 [PP-001]: ./docs/project-plan.md
