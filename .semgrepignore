@@ -1,0 +1,2 @@
+# The framework folder is a git submodule with CI templates; it is not part of this project.
+framework/
