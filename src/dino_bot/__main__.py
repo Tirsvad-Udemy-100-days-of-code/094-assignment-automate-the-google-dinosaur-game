@@ -6,7 +6,6 @@
 import argparse
 import logging
 import sys
-import time
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -63,10 +62,11 @@ def run_desktop(seconds: float | None, countdown: int, region: Box | None) -> Ga
     from dino_bot.infrastructure.desktop_screen import DesktopScreen
     from dino_bot.infrastructure.system_clock import SystemClock
 
+    clock = SystemClock()
     for left in range(countdown, 0, -1):
         _log.info("Starting in %d ...", left)
-        time.sleep(1)
-    return play_game(DesktopScreen(), DesktopKeyboard(), SystemClock(), region, seconds)
+        clock.sleep(1)
+    return play_game(DesktopScreen(), DesktopKeyboard(), clock, region, seconds)
 
 
 def run_headless(seconds: float | None, picture: Path | None) -> GameReport:
@@ -77,7 +77,7 @@ def run_headless(seconds: float | None, picture: Path | None) -> GameReport:
     from dino_bot.infrastructure.system_clock import SystemClock
 
     with HeadlessGame() as game:
-        report = play_game(game, game, SystemClock(), None, seconds, should_stop=game.is_game_over)
+        report = play_game(game, game, SystemClock(), None, seconds, should_stop=lambda: game.is_game_over())
         _log.info("Score shown by the game: %d", game.score())
         if picture is not None:
             game.save_picture(picture)
