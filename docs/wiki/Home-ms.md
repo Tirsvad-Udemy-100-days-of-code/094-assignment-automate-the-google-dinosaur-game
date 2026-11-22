@@ -6,4 +6,6 @@ Tugasan Hari 94 kursus *100 Days of Code: The Complete Python Pro Bootcamp*. Bot
 
 | Halaman | Baca apabila anda mahu |
 | --- | --- |
+| [Pemasangan](Install-ms) | Menyediakan `.venv`, menjalankan bot dan ujiannya |
 | [Langkah 1: Asas](Step-1-Baseline-ms) | Apa yang dilakukan langkah binaan ini dan apa yang dipelajari, dengan tangkapan skrin |
+| [Langkah 2: Rangka](Step-2-Scaffold-ms) | Apa yang dilakukan langkah binaan ini dan apa yang dipelajari, dengan tangkapan skrin |

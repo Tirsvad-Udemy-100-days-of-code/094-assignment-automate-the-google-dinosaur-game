@@ -6,4 +6,6 @@ Day 94 assignment of the course *100 Days of Code: The Complete Python Pro Bootc
 
 | Page | Read it when you want to |
 | --- | --- |
+| [Install](Install) | Set up a `.venv`, run the bot and its tests |
 | [Step 1: Baseline](Step-1-Baseline) | What this build step did and what it taught, with a screenshot |
+| [Step 2: Scaffold](Step-2-Scaffold) | What this build step did and what it taught, with a screenshot |

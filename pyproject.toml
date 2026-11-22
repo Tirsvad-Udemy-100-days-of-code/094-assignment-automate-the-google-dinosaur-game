@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dino-bot"
+version = "0.1.0"
+description = "A bot that plays the Google Dinosaur Game by reading screen pixels with Pillow and hitting the space bar with pyautogui."
+readme = "README.md"
+requires-python = ">=3.14"
+license = "AGPL-3.0-or-later"
+authors = [{ name = "Jens Tirsvad Nielsen" }]
+keywords = ["game-bot", "pillow", "pyautogui", "automation", "dinosaur-game", "100-days-of-code"]
+classifiers = [
+    "Programming Language :: Python :: 3.14",
+    "Framework :: Pytest",
+    "Topic :: Games/Entertainment",
+]
+# Pillow takes the screenshots and PyAutoGUI hits the space bar: the two tools of the assignment.
+dependencies = [
+    "pillow>=11",
+    "pyautogui>=0.9.54",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "pytest-cov>=6",
+    "ruff>=0.8",
+]
+# Plays in a headless Chrome, so the bot can be watched without using the desktop.
+headless = [
+    "playwright>=1.49",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]
+addopts = "--import-mode=importlib"
+
+[tool.ruff]
+line-length = 120
+target-version = "py314"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "B", "A", "UP"]
