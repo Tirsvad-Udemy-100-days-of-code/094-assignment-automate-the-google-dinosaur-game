@@ -11,3 +11,4 @@ Opgave til dag 94 i kurset *100 Days of Code: The Complete Python Pro Bootcamp*.
 | [Trin 2: Skelet](Step-2-Scaffold-da) | Hvad dette byggetrin gjorde og lærte os, med et skærmbillede |
 | [Trin 3: Design](Step-3-Design-da) | Hvad dette byggetrin gjorde og lærte os, med et skærmbillede |
 | [Trin 4: Syn](Step-4-Vision-da) | Hvad dette byggetrin gjorde og lærte os, med et skærmbillede |
+| [Trin 5: Bot](Step-5-Bot-da) | Hvad dette byggetrin gjorde og lærte os, med et skærmbillede |

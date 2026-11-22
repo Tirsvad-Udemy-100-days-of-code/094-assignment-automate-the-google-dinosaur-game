@@ -57,5 +57,23 @@ OBSTACLE_CONTRAST: int = 60
 ## Fewest obstacle pixels in the detection box before the bot jumps; one pixel can be noise.
 MIN_OBSTACLE_PIXELS: int = 3
 
+## Seconds after a jump before the bot may jump again; a second press while in the air does nothing.
+JUMP_COOLDOWN_SECONDS: float = 0.15
+
+## Seconds to wait after the first press of the space bar, while the game widens its canvas; no obstacle comes yet.
+START_ANIMATION_SECONDS: float = 1.0
+
+## Seconds to wait between two looks at the screen. Zero looks as often as the screenshots allow.
+POLL_INTERVAL_SECONDS: float = 0.0
+
+## Seconds the command line waits before it starts, so the user can bring the game window to the front.
+DEFAULT_COUNTDOWN_SECONDS: int = 3
+
 ## Key the bot presses to start the game and to jump.
 JUMP_KEY: str = "space"
+
+## Size of the browser window in headless mode, in pixels.
+HEADLESS_VIEWPORT: tuple[int, int] = (1000, 600)
+
+## Seconds the headless browser may take to load the game page.
+HEADLESS_LOAD_TIMEOUT_SECONDS: float = 60.0

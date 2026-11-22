@@ -140,6 +140,7 @@ Malaysia.
 | 2 | MIL-002 Scaffold | `pyproject.toml`, `constants.py`, smoke test, `.gitignore`, `.editorconfig`, `Doxyfile`, this README | [02-scaffold-tests.png](docs/images/02-scaffold-tests.png) | [Step 2](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-2-Scaffold) |
 | 3 | MIL-003 Design | Use case UC-001, two ADRs, domain model and design class diagram | [03-design-class-diagram.png](docs/images/03-design-class-diagram.png) | [Step 3](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-3-Design) |
 | 4 | MIL-004 Vision | `Box`, `Frame`, `find_game_area`, `detection_box`, `is_collision` and their unit tests | [04-vision-detection-box.png](docs/images/04-vision-detection-box.png) | [Step 4](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-4-Vision) |
+| 5 | MIL-005 Bot | `play_game`, desktop and headless adapters, `hit`, the command line and their tests | [05-bot-headless-run.png](docs/images/05-bot-headless-run.png) | [Step 5](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/094-assignment-automate-the-google-dinosaur-game/wiki/Step-5-Bot) |
 
 Step 1, the Project Plan with six milestones:
 
@@ -156,6 +157,10 @@ Step 3, the layers of the design:
 Step 4, the detection box on a real game picture and the vision tests:
 
 ![Step 4, the detection box on a real game picture and the vision tests](docs/images/04-vision-detection-box.png)
+
+Step 5, a headless run of the bot with its score:
+
+![Step 5, a headless run of the bot with its score](docs/images/05-bot-headless-run.png)
 <!-- steps:end -->
 
 ## 📄 License
